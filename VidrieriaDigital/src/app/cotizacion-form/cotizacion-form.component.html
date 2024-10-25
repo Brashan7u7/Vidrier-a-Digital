@@ -1,0 +1,41 @@
+<section>
+  <div class="cotizacion-rapida">
+    <h3>Solicitar Cotización</h3>
+    <form id="cotizacion-form-inicio" onsubmit="enviarWhatsApp(event)">
+      <div class="form-group">
+        <input
+          type="text"
+          id="nombre-cotizacion-inicio"
+          placeholder="Nombre completo"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="email"
+          id="email-cotizacion-inicio"
+          placeholder="Correo electrónico"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <input
+          type="tel"
+          id="telefono-cotizacion-inicio"
+          placeholder="Teléfono"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <textarea
+          id="mensaje-cotizacion-inicio"
+          placeholder="Describe brevemente lo que necesitas"
+          required
+        ></textarea>
+      </div>
+      <button type="submit" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i> Enviar por WhatsApp
+      </button>
+    </form>
+  </div>
+</section>

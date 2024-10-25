@@ -1,0 +1,13 @@
+.servicios-descripcion {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  color: #666;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
