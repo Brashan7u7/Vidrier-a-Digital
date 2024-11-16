@@ -1,0 +1,85 @@
+.example-card {
+  max-width: 400px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.example-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+mat-card-header {
+  background-color: #f5f5f5;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+mat-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #000000d9;
+  font-weight: bold;
+}
+
+mat-card img {
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+mat-card-actions {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+a.quote-button {
+  background-color: #00796b; 
+  color: white; 
+  font-size: 1.1rem; 
+  font-weight: 600; 
+  padding: 0.5rem 1rem; 
+  border-radius: 5px; 
+  text-transform: uppercase; 
+  transition: background-color 0.3s, transform 0.3s; 
+  text-decoration: none; 
+  display: inline-block; 
+  text-align: center; 
+}
+
+a.quote-button:hover {
+  background-color: #004d40;
+  transform: scale(1.05); 
+}
+
+a.quote-button:focus {
+  outline: none; 
+  box-shadow: 0 0 5px rgba(0, 128, 128, 0.5); 
+}
+
+.servicios-descripcion {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  color: #666;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.card-space {
+  float: left;
+}

@@ -1,0 +1,54 @@
+#sobre-nosotros {
+  background-color: #f9f9f9;
+  padding: 3rem 1rem; 
+  text-align: center; 
+}
+
+.about-container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  flex-wrap: wrap; 
+}
+
+.about-description {
+  flex: 1; 
+  max-width: 600px; 
+  margin-right: 2rem; 
+}
+
+.about-description h2 {
+  font-size: 2rem; 
+  color: #d42c23; 
+  margin-bottom: 1rem; 
+}
+
+.about-description p {
+  color: #666; 
+  line-height: 1.6; 
+  font-size: 1.1rem; 
+}
+
+app-cotizacion-form {
+  flex: 1; 
+  max-width: 400px; 
+  margin-left: 2rem; 
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .about-description {
+    margin-right: 0; 
+    margin-bottom: 2rem; 
+  }
+
+  app-cotizacion-form {
+    margin-left: 0; 
+  }
+}

@@ -5,6 +5,8 @@ import { BannerComponent } from './banner/banner.component';
 import { CotizacionFormComponent } from './cotizacion-form/cotizacion-form.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.component';
+import { UbicacionComponent } from "./ubicacion/ubicacion.component";
+import { FooterComponent } from "./footer/footer.component";
 
 @Component({
   selector: 'app-root',
@@ -16,7 +18,9 @@ import { SobreNosotrosComponent } from './sobre-nosotros/sobre-nosotros.componen
     CotizacionFormComponent,
     ServiciosComponent,
     SobreNosotrosComponent,
-  ],
+    UbicacionComponent,
+    FooterComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
 })

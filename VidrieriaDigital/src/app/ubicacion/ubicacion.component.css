@@ -1,0 +1,16 @@
+#ubicacion {
+  background-color: #f9f9f9; 
+  padding: 2rem 1rem; 
+  text-align: center; 
+}
+
+.map-container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.map-container iframe {
+  width: 100%; 
+  height: 450px; 
+  border: 0; 
+}

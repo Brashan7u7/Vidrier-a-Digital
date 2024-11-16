@@ -5,24 +5,35 @@
     productos de la más alta calidad. Ofrecemos soluciones personalizadas para
     hogares y negocios, garantizando durabilidad y elegancia en cada proyecto.
   </p>
-  <mat-grid-list cols="3" rowHeight="1:1">
-    <mat-grid-tile>
-      <app-card></app-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-card></app-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-card></app-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-card></app-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-card></app-card>
-    </mat-grid-tile>
-    <mat-grid-tile>
-      <app-card></app-card>
-    </mat-grid-tile>
-  </mat-grid-list>
+
+  <div class="card-container">
+    <app-card
+      class="card-space"
+      [img]="'images/CAT_PUERTAS.jpg'"
+      [title]="'Catálogo de puertas de PVC'"
+      [lista]="'Garantia de 15 años,Puertas templadas,Fachadas comerciales'"
+      [pdf]="'assets/catalogos/CAT_PUERTAS.pdf'"
+    ></app-card>
+    <app-card
+      class="card-space"
+      [img]="'images/CAT_VIVIENDA-1.jpg'"
+      [title]="'Catálogo de desarrollos de vivienda'"
+      [lista]="'Garantia de 15 años,Puertas templadas,Fachadas comerciales'"
+      [pdf]="'assets/catalogos/CAT_VIVIENDA.pdf'"
+    ></app-card>
+    <app-card
+      class="card-space"
+      [img]="'images/CAT_RESIDENCIAL.jpg'"
+      [title]="'Catálogo residencial'"
+      [lista]="'Garantia de 15 años,Puertas templadas,Fachadas comerciales'"
+      [pdf]="'assets/catalogos/CAT_RESIDENCIAL.pdf'"
+    ></app-card>
+    <app-card
+      class="card-space"
+      [img]="'images/CAT_PERGOLAS.jpg'"
+      [title]="'Catálogo de pérgolas de PVC'"
+      [lista]="'Garantia de 15 años,Puertas templadas,Fachadas comerciales'"
+      [pdf]="'assets/catalogos/CAT_PERGOLAS.pdf'"
+    ></app-card>
+  </div>
 </section>

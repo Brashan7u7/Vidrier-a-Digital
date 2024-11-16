@@ -1,10 +1,12 @@
 <section>
   <div class="cotizacion-rapida">
     <h3>Solicitar Cotización</h3>
-    <form id="cotizacion-form-inicio" onsubmit="enviarWhatsApp(event)">
+    <form (ngSubmit)="enviarWhatsApp($event)">
       <div class="form-group">
         <input
           type="text"
+          [(ngModel)]="nombre"
+          name="nombre"
           id="nombre-cotizacion-inicio"
           placeholder="Nombre completo"
           required
@@ -13,6 +15,8 @@
       <div class="form-group">
         <input
           type="email"
+          [(ngModel)]="email"
+          name="email"
           id="email-cotizacion-inicio"
           placeholder="Correo electrónico"
           required
@@ -21,6 +25,8 @@
       <div class="form-group">
         <input
           type="tel"
+          [(ngModel)]="telefono"
+          name="telefono"
           id="telefono-cotizacion-inicio"
           placeholder="Teléfono"
           required
@@ -28,6 +34,8 @@
       </div>
       <div class="form-group">
         <textarea
+          [(ngModel)]="mensaje"
+          name="mensaje"
           id="mensaje-cotizacion-inicio"
           placeholder="Describe brevemente lo que necesitas"
           required
